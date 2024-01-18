@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+</head>
+<body>
+    <header>
+        <h3>Links</h3>
+    </header>
+    <nav>
+        <a href="#">Home</a><br>
+        <a href="#">About Us</a><br>
+        <a href="#">Contact</a>
+    </nav>
+
+    <header>
+        <h3>Images</h3>
+    </header>
+    <figure>
+        <img src="albedo.jpg" alt="Albedo" width="100" height="100">
+        <figcaption>Albedo</figcaption>
+    </figure>
+
+    <article>
+        <header>
+            <h3>Forms</h3>
+        </header>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required minlength="4" maxlength="15"><br>
+
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" required pattern=".{4,}" title="Four or more characters"><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="gender" name="Male" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="gender" name="Female" value="Female">
+            <label for="Male">Female</label><br>
+
+            <input type="checkbox" id="terms" name="terms" value="terms">
+            <label for="terms">I accept the Terms and Conditions</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </article>
+    
+    <article>
+        <header>
+          <h3>Tables</h3>
+        </header>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+                <td>Los Angeles</td>
+            </tr>
+        </table>
+    </article>
+
+    <article>
+        <header>
+            <h3>Audio and Video</h3>
+        </header>
+        <audio controls autoplay muted>
+            <source src="sound.mp3">   
+        </audio><br><br>
+
+        <video width="200" height="200" controls>
+            <source src="giphy.mp4" type="video/mp4">
+        </video>
+    </article>
+</body>
+</html>
