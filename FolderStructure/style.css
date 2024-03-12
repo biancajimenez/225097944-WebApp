@@ -1,0 +1,30 @@
+html {
+    background-color:  #a79898;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1b1b1b;;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1b1b1b;
+    font-family: sans-serif;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b1b1b;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1b1b1b;
+    font-family: sans-serif;
+}
